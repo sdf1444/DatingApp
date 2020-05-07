@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-      <UserSecretsId>08ae973f-603e-4eb0-80aa-52bae56456bc</UserSecretsId>
+    <UserSecretsId>08ae973f-603e-4eb0-80aa-52bae56456bc</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>&#xD;
   </ItemGroup>
@@ -12,5 +12,7 @@
     <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.5.1"/>
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.5.1"/>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.0.0"/>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.0.0"/>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0"/>
   </ItemGroup>
 </Project>
